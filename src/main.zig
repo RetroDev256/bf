@@ -16,7 +16,8 @@ const Allocator = std.mem.Allocator;
 
 // code -> tokens
 // tokens -> ast
-// ast -> zig code
+// ast -> ir
+// ir -> zig code
 
 pub fn main() !void {
     const gpa = std.heap.smp_allocator;
